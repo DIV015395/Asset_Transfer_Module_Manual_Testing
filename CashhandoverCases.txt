@@ -1,0 +1,176 @@
+Very Very Important Cases For Cash Handover
+
+We have 4 important term
+
+1)Opening balance 
+2)Admin Correction
+3)New Receipts in Clinic
+4)Top-up 
+
+According to permutation combination 2^4 = 16 cases
+
+  
+Case-1)     1) Opening balance is 1000 rupees                                        Jaipur - Pratap Nagar               
+            2) add expense 10000 rupees 
+               submit payreco by doctor
+               Then Approve by Account department
+               Top up balance is 10000 rupees
+            3)Admin correction Paytm cash 4400 convert into cash
+            4)Add reciept balance 6000 rupees by doctor
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+
+Case-2)    1) Opening balance is 1000 rupees                                              Hosp Ranka-Mukund Nagar-Pune,   banner road amount is less
+           2) add expense 10000 rupees 
+               submit payreco by doctor
+               Then Approve by Account department
+               Top up balance is 10000 rupees
+           3)Admin correction Paytm cash 10000 convert into cash
+
+ Output - It should not be display the message the message "Please Reconcile from PRM
+          Redirect to Cash Handover Screen.
+
+Case-3)   1) Opening balance is 11000 rupees                                                       Developer west            
+          2) add expense 10000 rupees 
+               submit payreco by doctor
+               Then Approve by Account department
+               Top up balance is 10000 rupees        
+
+ Output - It should not be display the message the message "Please Reconcile from PRM
+          Redirect to Cash Handover Screen.
+
+
+Case-4)     1) Opening balance is 1000 rupees                                                   Hinjewadi               
+           
+Output - It should not be display the message the message "Please Reconcile from PRM
+          Redirect to Cash Handover Screen.
+
+
+Case-5)     1)Opening balance is 1000 rupees                                                      
+            2)Admin correction Paytm cash 4400 convert into cash                                  Jaipur - Vaishali Nagar
+            3)Add reciept balance 6000 rupees by doctor
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+Case-6)     1)Opening balance is 1000 rupees                                                      jaipur bani park   
+            2)Admin correction Paytm cash 4400 convert into cash
+          
+
+Output - It should not be display the message "Please Reconcile from PRM.
+         Redirect to Cash Handover Screen.
+
+
+
+Case-7)     1) add expense 10000 rupees                                                 Prahlad Nagar
+               submit payreco by doctor
+               Then Approve by Account department                                              
+               Top up balance is 10000 rupees
+            2)Admin correction Paytm cash 4400 convert into cash
+            3)Add reciept balance 6000 rupees by doctor
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+Case-8)     1) add expense 10000 rupees                                                     NIBM Road             
+               submit payreco by doctor
+               Then Approve by Account department
+               Top up balance is 10000 rupees
+            2)Add reciept balance 6000 rupees by doctor
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+Case-9)     1)Admin correction Paytm cash 4400 convert into cash                       Jaipur - Malviya Nagar - Girdhar Marg
+            2)Add reciept balance 6000 rupees by doctor
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+Case-10)   1) add expense 10000 rupees                                                   Magarpatta                   
+               submit payreco by doctor
+               Then Approve by Account department
+               Top up balance is 10000 rupees
+            2)Add reciept balance 11000 rupees by doctor.
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+
+
+Case-11)    1) add expense 10000 rupees                                                        Wakad                           
+               submit payreco by doctor
+               Then Approve by Account department
+               Top up balance is 10000 rupees
+            2)Admin correction Paytm cash  11000 convert into cash.
+
+Output - It should not be display the message "Please Reconcile from PRM.
+         Redirect to Cash Handover Screen.
+
+
+Case-12)  1)Admin correction Paytm cash 4400 convert into cash                           Hosp Sahyadri-Hadapsar-Pune         
+    
+
+Output - It should not be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+
+Case-13)     1) Opening balance is 1000 rupees                                                 Hosp Sahyadri-Nagar Road-Pune                                
+       
+Output - It should not be display the message "Please Reconcile from PRM.
+         Redirect to Cash Handover Screen.
+
+Case-14)     1) Opening balance is 1000 rupees                                             jaipur durgapur                                  
+            2)Add reciept balance 6000 rupees by doctor
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+Case-15)     1) add expense 10000 rupees                                                    Bhumkar chowk
+               submit payreco by doctor
+               Then Approve by Account department
+               Top up balance is 10000 rupees
+
+Output - It should be display the message "No Amount for Cash Handover".
+
+
+Case-16) 1)Add reciept balance 6000 rupees by doctor                                           Amanora
+
+Output - It should be display the message "Please Reconcile from PRM.
+         After Reconcile from PRM It move to Cash handover Screen.
+
+
+
+Jaipur - Tilak Nagar   =   clinic difference -
+
+Jaipur - Jhotwara  =   clinic difference +
+
+
+
+
+
+
+Task Plan:-19-09-2023
+---------------------------
+In Android - Retesting
+Creating data 16 cases at PRMdv server
+Cash handover complete testing
+
+                                                   
+
+          
+          
+
+
+
+
