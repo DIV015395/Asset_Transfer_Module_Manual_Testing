@@ -1,0 +1,63 @@
+Assets Transfer Module Complete test as Manual (Clove Project)
+
+1. All status verified - Transfer initiated , Transfer in Progress , Issued list.
+2. Sending assets from I.T to doctor, 
+3. Assets request verify, MFA , TOTP verified
+4. During accept time, Check database - Accessories Quantity verified.
+5. Accessories page , verified 
+   check quantity increase and decrease fucntion
+6. Incident report function verified.
+7. Three status , working , damaged ,Theft - verified -------sending I.T to doctor and Doctor to I.T and Doctor to doctor
+8. Api Response time measurement.
+9. Search functionality verified Like , name , serial no , Code.
+10. Multiple assets selection Transfer verified , Also not selected incidence Report assets, Transfer initiated assets
+11. Revoke function verified working fine according to suraj cases.
+12. Edit functionality is verified.
+13. History page is verified -   ---------------------(It is updated only when TOTP is done)
+15. I.T side Issued listing is verified.
+16. I.T side issued listing status verified.
+17. Checking All APi checked working or not.
+18, Database verified according to status ,State
+  Status - Working , Damaged , Theft
+  State - Inventory , Pending , Issued
+19. IT side listing verified  for inventory and issued.
+20. checking - SQL table - asset_transfer`, `asset_incidence`,`asset_category`,`asset_accessory_map`,`assets_master`
+    All table verified according assets transfer and accessories Quantity, is there any mismatch
+21. All Api verified from Postman Api testing.
+22. MFA should be same in Android and IOS.
+23. Image opening in IOS and Android both.
+24. Notification verified in IOS and Android.
+25. Doctor side search filter verified.
+26. QR code Scanner is verified during Search in Inventory, Doctor.
+27. All text check in status - Return iniated , Return in Progress (Doctor to I.T Transfer)
+                               Transfer intiated , Transfer in progress (I.T to Doctor , Doctor To doctor Transfer)
+                               Incidence Reported.
+28 . Verify Revoke before Otp validation
+29. Not able to edit after accept the asset request, Edit fucntion removed
+30. After sending asset request and Before accept the assets request= Edit is working
+31. I.T can revoke , When Doctor to doctor transfer from issued.
+32. Creating a assets data  in assets master table,
+33. Map all the accessories from assets id master tables.
+
+
+Negative testing - 
+1. During Transfer checking Toast message. like accessories , remarks , images , dentist selection
+2. During search - checking response , no assets found
+3. During Scanner search invalid Qr code reponse check
+4. Using filter check - no assets found
+5. During accept time check all Toast message.
+
+All buttons verified in inventory like :
+|view , history , transfer ,incidence|
+|after transfer                      |   also verifed in issued and Doctor listing.
+|edit , cancel , view , history      |
+
+1. Verified 32 case which is make by suraj
+
+
+
+
+
+
+ 
+   
